@@ -11,8 +11,7 @@ def fibonacci(n): #recursive fibonacci sequence function
         return 1
     else: #call fibonacci again until base case is reached
         return fibonacci(n-1) + fibonacci(n-2)
-1
-4
+        
 run = True
 while run:
     print("Welcome to the Recursive Artistry Program!")
